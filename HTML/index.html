@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+    <title>Profile</title>
+</head>
+
+<body>
+    <div class="w3-container w3-dark-grey w3-center w3-text-light-grey w3-padding-32" id="about">
+        <h4><b>My profile</b></h4>
+        <img src="MyPhoto.jpg" alt="Me" class="w3-image w3-padding-32" width="600" height="650">
+        <div class="w3-content w3-justify" style="max-width:600px">
+            <h4>ประวัติส่วนตัว</h4>
+            <p> นาย ฐิติสรร วชิระอรุณวงษ์</p>
+            <p>ศึกษาอยู่ที่ มหาวิทยาลัยเเม่โจ้ เชียงใหม่</p>
+            <p>สาขา วิทยาการคอมพิวเตอร์ รหัสนักศึกษา 6004101327</p>
+            <p>อายุ 21 ปี วัน/เดือน/ปี เกิด 19/08/2540</p>
+            <p>mail: thitisan.th@gmail.com</p>
+            <p>tel: 080-0711997</p>
+            <hr class="w3-opacity">
+            <h4 class="w3-padding-16">Technical Skills</h4>
+            <p class="w3-wide">Game</p>
+            <div class="w3-white">
+                <div class="w3-container w3-padding-small w3-center w3-grey" style="width:95%">95%</div>
+            </div>
+            <p class="w3-wide">Card Game</p>
+            <div class="w3-white">
+                <div class="w3-container w3-padding-small w3-center w3-grey" style="width:100%">100%</div>
+            </div>
+            <p class="w3-wide">Study</p>
+            <div class="w3-white">
+                <div class="w3-container w3-padding-small w3-center w3-grey" style="width:40%">40%</div>
+            </div>
+
+            <!-- Optional JavaScript -->
+            <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+            <script>
+                // Script to open and close sidebar
+                function w3_open() {
+                    document.getElementById("mySidebar").style.display = "block";
+                    document.getElementById("myOverlay").style.display = "block";
+                }
+
+                function w3_close() {
+                    document.getElementById("mySidebar").style.display = "none";
+                    document.getElementById("myOverlay").style.display = "none";
+                }
+
+                // Modal Image Gallery
+                function onClick(element) {
+                    document.getElementById("img01").src = element.src;
+                    document.getElementById("modal01").style.display = "block";
+                    var captionText = document.getElementById("caption");
+                    captionText.innerHTML = element.alt;
+                }
+            </script>
+            <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+
+</html>
